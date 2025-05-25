@@ -1,0 +1,20 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+.env/
+venv/
+env/
+
+# Ignore Chrome driver & scraping files
+chromedriver.exe
+chromedriver-win64/
+scraper.py
+scraper_selenium.py
+job_alert.py
+cluster_model.py
+preprocess.py
+page_source.html
+
+# Ignore Flask-only files
+Procfile
+templates/
